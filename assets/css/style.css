@@ -329,3 +329,13 @@ footer{
   font-size: 0.75em;
 }
 
+@media only screen and (max-width: 1000px) {
+  .home-text {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .home-text {
+    width: 100%;
+  }
+}
