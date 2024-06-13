@@ -157,7 +157,42 @@ nav {
   margin: 0;
 }
 
+/* -- Banner Class -- */
+.banner-class-black {
+  height: 50px;
+  background-color: #212222;
+  transform: rotate(2deg);
+  width: 100vw; 
+  position: relative;
+  left: calc(-10vw);
+}
+
+.banner-class-blue {
+  height: 50px;
+  background-color: #00a6fb;
+  transform: rotate(-2deg);
+  margin-top: -60px;
+  width: 100vw;
+  position: relative;
+  left: calc(-10vw);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner-class-blue i {
+  font-size: 2rem;
+  margin: 0 40px;
+  filter: invert(1);
+}
+
+
 /* Skills */
+#skills{
+  margin-top: 5em;
+}
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
