@@ -319,6 +319,7 @@ label{
   background-color: #003554;
   color: white;
   box-sizing: border-box;
+  resize: vertical;
 }
 
 .contact-form button {
