@@ -6,6 +6,11 @@ body {
   font-size: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 main {
   width: 80%;
   margin: 0 auto;
@@ -61,7 +66,7 @@ button a:hover, .project-links a{
 
 .btn-primary:hover {
   background-color: #003554;
-  border: 1px solid white;
+  border: 1px solid #00a6fb;
   cursor: pointer;
 }
 
@@ -79,7 +84,7 @@ button a:hover, .project-links a{
 
 .btn-secondary:hover {
   background-color: #003554;
-  border: 1px solid white;
+  border: 1px solid #00a6fb;
   cursor: pointer;
 }
 
@@ -113,6 +118,7 @@ button a:hover, .project-links a{
 }
 
 /* Navbar Styles */
+
 nav {
   height: 100px;
 }
@@ -204,6 +210,20 @@ nav {
   font-size: 2rem;
   margin: 0 40px;
   filter: invert(1);
+}
+
+.logo-items{
+  animation: scrolling 15s linear infinite;
+}
+
+@keyframes scrolling{
+  0%{
+    transform: translateX(120%);
+  }
+
+  100%{
+    transform: translateX(-130%);
+  }
 }
 
 
