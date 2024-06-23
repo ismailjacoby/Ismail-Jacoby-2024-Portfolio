@@ -118,7 +118,6 @@ button a:hover, .project-links a{
 }
 
 /* Navbar Styles */
-
 nav {
   height: 100px;
 }
@@ -135,6 +134,11 @@ nav {
 
 .nav-item a {
   font-size: 0.75em;
+}
+
+
+#nav-button {
+  transition: 0.2s;
 }
 
 /* Home */
@@ -226,11 +230,11 @@ nav {
   }
 }
 
-
 /* Skills */
 #skills{
   margin-top: 5em;
 }
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -318,6 +322,7 @@ nav {
 label{
   font-size: 0.85em;
 }
+
 .contact-form {
   margin-top: 5em;
   background-color: #05192338;
@@ -360,8 +365,9 @@ footer{
   font-size: 0.75em;
 }
 
-@media only screen and (max-width: 1240px) {
+/* Mobile Responsivness*/
 
+@media only screen and (max-width: 1240px) {
   .project-links{
     font-size: 0.8em;
   }
@@ -374,21 +380,14 @@ footer{
 
   .project-links{
     font-size: 0.5em;
-
   }
 }
 
 @media only screen and (max-width: 789px) {
-
   .project-links a{
     font-size: 1em;
     padding: 5px;
   }
-
-}
-
-#nav-button {
-  transition: 0.2s;
 }
 
 @media only screen and (max-width: 725px) {
