@@ -364,7 +364,6 @@ footer{
 
   .project-links{
     font-size: 0.8em;
-
   }
 }
 
@@ -380,29 +379,63 @@ footer{
 }
 
 @media only screen and (max-width: 789px) {
-  .project-links{
+
+  .project-links a{
     font-size: 1em;
     padding: 5px;
   }
 
 }
 
+#nav-button {
+  transition: 0.2s;
+}
+
 @media only screen and (max-width: 725px) {
   .home-text {
     width: 100%;
   }
+
+  .logo-icon {
+    height: 25px;
+    width: auto;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    font-size: 0.75em;
+  }
+
+  #nav-button {
+    font-size: 0.75em;
+    padding: 7.5px;
+  }
+
 }
 
 
 @media only screen and (max-width: 590px) {
-  .project-links{
+  .project-links a{
     font-size: 0.7em;
+    padding: 5px;
+  }
+
+  .nav-item a {
+    font-size: 0.5em;
+  }
+
+  #nav-button {
+    font-size: 0.5em;
     padding: 5px;
   }
 }
 
 @media only screen and (max-width: 440px) {
-  .project-links{
+  .project-links a{
     font-size: 0.5em;
     padding: 5px;
   }
