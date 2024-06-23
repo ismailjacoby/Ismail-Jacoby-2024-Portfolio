@@ -311,6 +311,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 1em;
+  overflow: hidden;
 }
 
 /* Contact Form */
@@ -359,14 +360,50 @@ footer{
   font-size: 0.75em;
 }
 
+@media only screen and (max-width: 1240px) {
+
+  .project-links{
+    font-size: 0.8em;
+
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .home-text {
     width: 80%;
   }
+
+  .project-links{
+    font-size: 0.5em;
+
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .project-links{
+    font-size: 1em;
+    padding: 5px;
+  }
+
 }
 
 @media only screen and (max-width: 725px) {
   .home-text {
     width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 590px) {
+  .project-links{
+    font-size: 0.7em;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .project-links{
+    font-size: 0.5em;
+    padding: 5px;
   }
 }
